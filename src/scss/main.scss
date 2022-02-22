@@ -1,3 +1,15 @@
-body{
-    background-color: rgb(90, 38, 175);
+@import url(../fonts/fontawesome-free-6.0.0-beta3-web/scss/fontawesome.scss);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+}
+html{
+    font-synthesis: 62.5%;
+    overflow-x: hidden;
 }
