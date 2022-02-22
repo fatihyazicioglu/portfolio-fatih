@@ -1,6 +1,8 @@
-@import url(../fonts/fontawesome-free-6.0.0-beta3-web/scss/fontawesome.scss);
+@import "../fonts/fontawesome-free-6.0.0-beta3-web/css/all.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap');
-
+@import "./variable" ;
+@import "./var";
+@import "./header" ;
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0; padding: 0;
@@ -12,4 +14,18 @@
 html{
     font-synthesis: 62.5%;
     overflow-x: hidden;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+    &::-webkit-scrollbar-track{
+        background: $black;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: $crimson;
+        border-radius: 5rem;
+    }
+}
+body{
+    background: $light-black;
 }
