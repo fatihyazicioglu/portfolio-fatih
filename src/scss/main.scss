@@ -33,6 +33,26 @@ body{
 section{
     padding: 5rem 9%;
 }
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: rgb(195, 190, 191);
+    padding:1rem;
+    font-size: 1.5rem;
+    color: #3a3015;
+    box-shadow: 4px 4px 4px 5px #464646;
+
+    i{
+        height: 4rem;
+        width: 5rem;
+        line-height: 4rem;
+        font-size: 1.7rem;
+        text-align: center;
+        background: rgb(207, 206, 206);
+        border-radius: 50%;
+    }
+}
 .navbar{
     position: fixed;
     bottom: 0; left: 0; right: 0;
@@ -120,10 +140,7 @@ section{
     }
     .content {
         flex: 1 1 42rem;
-        border: rgb(22, 21, 21) solid;
         box-shadow: 10px 10px 10px 10px #1a1919;
-
-        
         h3{
             color: white;
             font-size: 4rem;
@@ -138,8 +155,6 @@ section{
         p{
             font-size: 1.5rem;
             color: $light-color ;
-
-
         }
     }
 }
