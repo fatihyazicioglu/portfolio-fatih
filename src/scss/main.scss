@@ -52,16 +52,47 @@ body{
         padding-right: 1rem;
      }
      &:hover{
-        background: $crimson;
+        background: rgb(255, 199, 69);
         padding-bottom: 5.5rem;
         border-radius: 1rem 1rem 0 0;
 
         i{
-            color:white
+            color:rgb(37, 36, 36)
+        }
+        span{
+            color: rgb(37, 36, 36) ;
         }
      }
-        
+    }
+}
 
+
+
+// media queries
+@media(max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    .navbar{
+        a{
+            i{
+                padding: 0;
+            }
+            span{
+                display: none;
+            }
+            &:hover{
+                padding-bottom:2rem;
+            }
+        }
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size: 50%;
     }
 }
 
