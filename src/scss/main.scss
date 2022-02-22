@@ -44,6 +44,24 @@ body{
         background: $nav-orange;
         flex:1;
         color: rgb(202, 202, 202);
+        text-align: center;
+        transition: .2s;
+    
+     i{
+        color: $crimson;
+        padding-right: 1rem;
+     }
+     &:hover{
+        background: $crimson;
+        padding-bottom: 5.5rem;
+        border-radius: 1rem 1rem 0 0;
+
+        i{
+            color:white
+        }
+     }
+        
+
     }
 }
 
