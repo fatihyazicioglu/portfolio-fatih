@@ -63,6 +63,6 @@
 
 .skills{
     .box-container{
-        // @include grid
+        @include grid(16rem);
     }
 }

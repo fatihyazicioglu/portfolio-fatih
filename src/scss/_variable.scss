@@ -6,4 +6,8 @@ $light-color: #aaa;
 $box-shadow:0.5rem 1rem rgba(0,0,0,.7);
 $light-black: #3b3b3b;
 $nav-orange: rgba(255, 145, 2, 0.685);
-
+@mixin grid($val){
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val,1fr));
+    gap: 1.5rem;
+}
