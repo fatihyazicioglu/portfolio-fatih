@@ -37,6 +37,7 @@ section{
     text-align: center;
     font-size: 3vw;
     color: white;
+    margin-bottom: 3rem;
 }
 .btn{
     display: inline-block;
@@ -123,6 +124,9 @@ section{
     }
 }
 @media(max-width:768px){
+    .heading{
+        font-size: 12vw;
+    }
     .navbar{
         a{
             i{
@@ -181,8 +185,44 @@ section{
         }
     }
 }
+.about{
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .info-container{
+            flex:1 1 42rem;
+
+         h1{
+             font-size: 4rem;
+             color: white;
+             text-transform: uppercase;
+             padding-bottom: 1rem;
+         }
+         .box-container{
+             padding: 1rem 0;
+             display: flex;
+             flex-wrap: wrap;
+             gap:2rem;
+
+             .box{
+                 flex:1 1 20rem;
+                 h3{
+                 font-size: 1.7rem;
+                 color: white;
+                 padding: 1rem 0;
+                 font-weight: normal;
+                 }
+             }
+         }
+        }
+    
+    }
+    
 
 
+}
     
 
 
