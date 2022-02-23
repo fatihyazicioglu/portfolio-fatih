@@ -146,6 +146,19 @@
                 padding:.5rem 1.5rem;
                 background: $light-bg;
               }
+              h3{
+                font-size: 2rem;
+                padding: 1rem 0;
+                color:$white;
+                padding-top: 3rem;
+                font-weight: normal;
+              }
+        
+              p{
+                font-size: 1.5rem;
+                color:$light-color;
+                line-height: 2;
+              }
         }
     }
 }
