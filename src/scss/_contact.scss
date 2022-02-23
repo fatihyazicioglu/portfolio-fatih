@@ -67,3 +67,13 @@
             width:49%;
           }
         }
+        .inputBox input,
+      textarea{
+        border-radius: 5rem;
+        padding:1.2rem 1.8rem;
+        font-size: 1.6rem;
+        color:$white;
+        text-transform: none;
+        margin:.7rem 0;
+        background: $light-bg;
+      }
