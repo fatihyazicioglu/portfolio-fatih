@@ -77,3 +77,12 @@
         margin:.7rem 0;
         background: $light-bg;
       }
+      textarea{
+        width:100%;
+        border-radius: 1rem;;
+        resize: none;
+        height: 25rem;
+      }
+      .btn{
+        padding:1rem 3rem;
+        cursor: pointer;
