@@ -6,3 +6,12 @@
       flex-wrap: wrap;
       gap:2rem;
 }
+.info-container{
+    width:40rem;
+
+    h1{
+      font-size: 3rem;
+      text-transform: uppercase;
+      color:$white;
+      padding-bottom: 1rem;
+    }
