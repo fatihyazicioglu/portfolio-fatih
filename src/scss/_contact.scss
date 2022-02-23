@@ -86,3 +86,11 @@
       .btn{
         padding:1rem 3rem;
         cursor: pointer;
+        &:hover{
+            background: $white;
+            color:$black;
+          }
+        }
+      }
+    }
+  }
