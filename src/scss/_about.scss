@@ -128,8 +128,17 @@
             position: relative;
 
             i{
-                
-            }
+                height: 4.5rem;
+                width: 4.5rem;
+                line-height: 4.5rem;
+                font-size: 1.7rem;
+                border-radius: 50%;
+                background: $crimson;
+                color:$white;
+                text-align: center;
+                position: absolute;
+                top:-1rem; left:-2.5rem;
+              }
         }
     }
 }
