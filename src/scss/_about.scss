@@ -118,14 +118,16 @@
     .box-container{
         display: flex;
         flex-wrap: wrap;
+        
         .box{
-            flex: 1 1 42rem;
-            margin-left: 2rem;
-            padding:2rem;
-            padding-left: 3.5rem;
-            padding-bottom: 2rem;
-            border-left: .1rem solid $light-color;
-            position: relative;
+          flex:1 1 40rem;
+          margin-left: 2rem;
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-left: 3.5rem;
+          padding-bottom: 3rem;
+          border-left: .1rem solid $light-color;
+          position: relative;
 
             i{
                 height: 4.5rem;
