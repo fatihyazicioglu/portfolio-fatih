@@ -108,11 +108,28 @@
         padding-bottom: 2rem;
         font-size: 4rem;
     }
-    span{
+    .my{
         text-align: center;
         text-transform: uppercase;
         color: white;
         padding-bottom: 2rem;
         font-size: 4rem;
+    }
+    .box-container{
+        display: flex;
+        flex-wrap: wrap;
+        .box{
+            flex: 1 1 42rem;
+            margin-left: 2rem;
+            padding:2rem;
+            padding-left: 3.5rem;
+            padding-bottom: 2rem;
+            border-left: .1rem solid $light-color;
+            position: relative;
+
+            i{
+                
+            }
+        }
     }
 }
