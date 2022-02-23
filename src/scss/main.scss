@@ -103,6 +103,11 @@ section{
         .content{
             h3{
                 font-synthesis: 3;
+
+                span{
+                    color:$light-color;
+                    font-weight:lighter;
+                }
             }
 
         }
