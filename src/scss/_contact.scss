@@ -1,18 +1,8 @@
 .contact{
-    .headings{
-        text-align: center;
-        text-transform: uppercase;
-        color: rgb(199, 61, 88);
-        padding-bottom: 2rem;
-        font-size: 4rem;
 
-        span{
-            text-align: center;
-            text-transform: uppercase;
-            color: white;
-            padding-bottom: 2rem;
-            font-size: 4rem; }
-         }
-    
-    
+    .row{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap:2rem;
 }
