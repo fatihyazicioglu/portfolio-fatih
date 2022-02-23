@@ -38,3 +38,15 @@
           }
         }
       }
+      .share{
+
+        a{
+          font-size: 2rem;
+          height: 4.5rem;
+          width: 4.5rem;
+          line-height: 4.5rem;
+          border-radius: 50%;
+          background: $light-bg;
+          color:$white;
+          text-align: center;
+          margin-right: .3rem;
