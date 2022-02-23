@@ -50,3 +50,16 @@
           color:$white;
           text-align: center;
           margin-right: .3rem;
+          &:hover{
+            background: $crimson;
+          }
+        }
+      }
+    }
+    form{
+        flex:1 1 42rem;
+  
+        .inputBox{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
