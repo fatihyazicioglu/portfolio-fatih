@@ -62,7 +62,37 @@
 }
 
 .skills{
+    .headings{
+        text-align: center;
+        text-transform: uppercase;
+        color: crimson;
+        padding-bottom: 2rem;
+        font-size: 4rem;
+    }
+    span{
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        padding-bottom: 2rem;
+        font-size: 4rem;
+    }
     .box-container{
         @include grid(16rem);
+    }
+    .box{
+        padding: 2rem;
+        text-align: center;
+        box-shadow: $box-shadow;
+        border-radius: .5rem;
+        background: $light-bg;
+
+        img{
+            height: 7rem;
+            margin-bottom: 1rem;
+        }
+        h3{
+            color: $white;
+            text-transform: uppercase;
+        }
     }
 }
