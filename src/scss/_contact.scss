@@ -28,3 +28,13 @@
           display: flex;
           gap:2rem;
           padding:1rem 0;
+          i{
+            font-size: 3rem;
+            color:$crimson;
+          }
+          h3{
+            font-size: 2rem;
+            color:$white;
+          }
+        }
+      }
