@@ -20,13 +20,26 @@
              gap:2rem;
              .box{
                  flex:1 1 20rem;
-                 h3{
-                 font-size: 1.7rem;
-                 color: white;
-                 padding: 1rem 0;
-                 font-weight: normal;
-                 }
+                 h3{font-size: 1.7rem;
+                    color: white;
+                    padding: 1rem 0;
+                    font-weight: normal;
+                }                
              }
+         }
+         .count-container{
+             flex:1 1 42rem;
+             display:flex;
+             flex-wrap: wrap;
+             gap:2rem;
+
+             .box{
+                 flex:1 1 20rem;
+                 padding:3rem 4rem ;
+                 border-radius: .5rem;
+                 background: $light-bg;
+                 $box-shadow:0.5rem 1rem rgba(0,0,0,.7);
+                }
          }
         }
     }
